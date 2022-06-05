@@ -288,9 +288,9 @@ jobs:
 tags_only: &tags_only
   filters:
     tags:
-      only: hehehaha
-    # branches:
-    #   ignore: /.*/
+      only: /^.*/
+    branches:
+      ignore: /.*/
 
 workflows:
   version: 2
