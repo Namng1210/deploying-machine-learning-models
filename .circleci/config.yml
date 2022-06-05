@@ -289,8 +289,8 @@ tags_only: &tags_only
   filters:
     branches:
       ignore: /.*/
-    tags:
-      only: /^.*/
+    # tags:
+    #   only: /^.*/
 
 workflows:
   version: 2
