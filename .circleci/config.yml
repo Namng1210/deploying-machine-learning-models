@@ -290,7 +290,8 @@ tags_only: &tags_only
     branches:
       ignore: /.*/
     tags:
-      only: /^v.*/
+      only: 
+        - 4.0.3
 
 workflows:
   version: 2
