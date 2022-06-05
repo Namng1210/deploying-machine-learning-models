@@ -288,9 +288,9 @@ jobs:
 tags_only: &tags_only
   filters:
     tags:
-      only: /^v.*/
-    branches:
-      ignore: /.*/
+      only: 4.0.3
+    # branches:
+    #   ignore: /.*/
 
 workflows:
   version: 2
