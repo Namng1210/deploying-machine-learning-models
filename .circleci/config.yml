@@ -297,8 +297,9 @@ workflows:
   section_07:
     jobs:
       - section_07_test_app:
-          tags:
-            only: /^v.*/
+          filters:
+            tags:
+              only: /^v.*/
       # - section_07_deploy_app_to_heroku:
       #     requires:
       #       - section_07_test_app
