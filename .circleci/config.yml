@@ -289,7 +289,7 @@ tags_only: &tags_only
   filters:
     branches:
       only : 
-        - example-pr
+        - example
       # ignore: /.*/
     # tags:
     #   only: /^.*/
