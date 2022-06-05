@@ -288,8 +288,7 @@ jobs:
 tags_only: &tags_only
   filters:
     branches:
-      only : 
-        - example
+      only : /^.*/
       # ignore: /.*/
     # tags:
     #   only: /^.*/
