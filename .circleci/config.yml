@@ -288,7 +288,7 @@ jobs:
 tags_only: &tags_only
   filters:
     tags:
-      only: 4.0.3
+      only: 4.0.1
     # branches:
     #   ignore: /.*/
 
