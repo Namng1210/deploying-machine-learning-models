@@ -296,8 +296,7 @@ workflows:
   version: 2
   section_07:
     jobs:
-      - section_07_test_app:
-          <<: *tags_only
+      - section_07_test_app
       # - section_07_deploy_app_to_heroku:
       #     requires:
       #       - section_07_test_app
